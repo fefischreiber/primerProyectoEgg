@@ -15,7 +15,7 @@ body{
     background-color: black;
   }
   
-  
+
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -116,22 +116,27 @@ h1{
     font-size: 45px;
     text-align: center;
     color: white;
+    margin: 20px;
+  
 
 
 }
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    text-align: left;
-    color: beige;
+    margin: 30px;
+    padding-left: 30px;
+    color: rgb(159, 159, 127);
 }
 
 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     justify-content: center;
-    color:blanchedalmond;
+    color:rgb(249, 243, 233);
+    margin: 20px;
     padding: 10px;
+    padding-left: 40px;
 }
 
   
@@ -141,9 +146,14 @@ p{
     }
   }
   
+.contacto {
+  margin: 30px;
+  padding: 20px;
 
+  text-align: center;
+}
 #myForm {
-    margin: 20px;
+    margin: 40px;
     color: azure;
     font-family: monospace;
 }
@@ -155,22 +165,31 @@ p{
     color: rgba(43, 40, 63, 0.942);
     
 }
+.servicios {
+  text-align: center;
+  margin: 10px;
+}
 
 .lisServ {
     margin: 10px;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: bisque;
+    display: inline-flex;
 
 }
 
 .serv{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+
 }
 
 .texto {
     text-align: center;
+    margin: 20px;
 
 }
 
@@ -180,12 +199,14 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 100%;
+    margin: 15px;
 }
   
 .imgR {
-    padding: 10px;
-    width: 400px;
-    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+    height: 350px;
     
 }  
 .cajavid{
@@ -195,26 +216,63 @@ p{
     justify-content: center;
 }
 .video {
+    margin: 15px;
     padding: 10px;
 }
+
 footer{
     background-color: black;
     height: 200px;
-    text-align: center;
-
+    padding: 20px;
 }
+
+.pie {
+  text-align: center;
+  
+}
+
 h5 {
     color: rgb(241, 241, 235);
     font-family:'Times New Roman', Times, serif;
-    padding: 20px;
-    margin: 25px;
-    
+    text-align: center;
+
 }
 
-.bjava {
-    margin: 25px;
+.btnsubir {
+  text-align: right;
+}
+
+  .item1{
+    height: 35px;
+    width: 35px;
+    padding: 0.5rem;
+    background-color: none;
+    background-color: rgba(43, 40, 63, 0.942);
+    border-radius: 50%;
+
+  }
+
+  .bjava {
     padding: 5px;
+    margin-bottom: 30px;
     font-family: monospace;
     color: rgba(43, 40, 63, 0.942);
-    
-}
+  }
+
+  .sectionIco {
+    list-style: none;
+
+  }
+  .item2{
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+ 
+   
+   }
+
+   .icono {
+    height: 40px;
+
+
+  }
